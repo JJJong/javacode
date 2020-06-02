@@ -8,7 +8,7 @@ public class PromotionExample {
 		A ad = new D();
 		A ae = new E();
 		
-		if(ac instanceof B) {
+		if(ac instanceof B) {     //ac가 B클래스로 만든 객체냐?
 			System.out.println("B");
 		}else {
 			System.out.println("아님");
